@@ -1,0 +1,31 @@
+{
+    "class_id": "com-snaplogic-snaps-microsoft-exchangeonline-account-exchangeonlinedynamicoauth2account",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "connect_token"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "access_token": {
+                "expression": false,
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "RQtsuwV5xFJgYoYAMvmoIA==",
+                "sym_key": "iHBfHz9ix0+l+LilbVJ5SrFFXadPtWmGIbEPUge0I6vMSiWQQsN+T7AV/AZottOVdYEilX/v/Mk9jhCQ8wJYFtJ7jJeGUgIO+L9iN7V9smqhCuw3LCZdfU1posvhZFm6O0af1ENSZftI0IZ4BRDDoS5e8TvBcE3bLcSKN3if1ShinuW6xWRD1B7+hrohNqME1VHlkZ//xMTHWDvUY7t3nS5wKdy+u13zWRXofQpdvKQ9Hh3c9KDG6r6RyEUNKkmxpTKiwll6r1lbYrHnZeSgTG11R4oTxb0MLmS9JbJ+Xs3q0+6oT2b6Irbff3DXDJEEIWQ3IWKPBFsZubyn1q81iw==",
+                "value": "iHXjKOzEvGQxNX7gTJfZKxduthK0S5MDvV0T1rKVRQO/AeYkGUg6TNfd/9OyOjY21FWiF5ig3756gS/f9MZMoQXZn3xxufSpBuYg1fmJrFw="
+            },
+            "tokentype": {
+                "value": "On behalf of application (client_credentials grant type)"
+            }
+        },
+        "view_serial": 100
+    }
+}

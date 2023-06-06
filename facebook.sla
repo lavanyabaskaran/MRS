@@ -1,0 +1,28 @@
+{
+    "class_id": "com-snaplogic-snaps-facebook-facebookdynamicoauth2account",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "facebook"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "access_token": {
+                "expression": false,
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "Wzv3E4yDh2iQZMTthMeVoA==",
+                "sym_key": "SvAocaDeCwhhbD0yQ5ox4G2c3NFcvr738O6AUhb8OmQfYLZSQpCl2ZdHCViDfJ2sF8ioBSniluRm3o/GBfKEco27LK8I3IVSg1n69NHjhUj0ZP0B68im7UGqqKZpuG3XIiBm9QAdm2ZTeJZaD7HV7BiyI+g4s8QK9t6bFHM8hHfYDt2UufPkjBoBUNgaN+nQjsTg63UrKWdkAQWyvsm8rto2O0psEPkaws8yROEepMN7JMHjbN4CM9UlOMNTWh/IzMAYDsWb9B/JefK0HW5/WQLTAWoIEoTRL192rZI7/MJaLvKGffo98wGLloyVgjRqr0ug7ZJEgnkqudEkVRh0zQ==",
+                "value": "pSko+Xg7AnMoPqXnGbjrkO2q1LHYmWDvAmzeVp+AatcEFiZd385Cqs8G7VeCHUP8bA4EH46RkSJMiqLF5LcH1xJidApYxx+UJObWZamf2uprqfHDH6gF4CaM2D8vIXNgJIK+w9uafDzt+ikxO5yFH+L5qbGdMpdtFY9e4IR4dP2Tv68V1/dE2IxyDzmMildoqhgK2dGZ1WJ9NmqFfv3qtGFRWOzY4tF91yBMhGWIcU3FsgdZt6F86lrhpJAv0FPhsTbeSlNEfn3+LzUWg5jOxw9zujSrrJ1GKOVsTBUsbi+bzIzKgksJoKE7NlF+z5c4gihr7BOYsBXWUPtH4BDf8A=="
+            }
+        },
+        "view_serial": 100
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-snowflakeazuredatabaseaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "SNOWFLAKE_TEST_CONNECTION"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 2
+                    },
+                    "batchSize": {
+                        "expression": false,
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "expression": false,
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "expression": false,
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "expression": false,
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "expression": false,
+                        "value": 60
+                    },
+                    "maxPoolSize": {
+                        "expression": false,
+                        "value": 15
+                    },
+                    "minPoolSize": {
+                        "expression": false,
+                        "value": 3
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "accountKey": {
+                        "expression": false,
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "ILnNNwKcDqBxdwz8jgZBHQ==",
+                        "sym_key": "iIafIIq121d0zZp0Nry/4sduBBO3GjSBoLqkvEX1a2pe2ETW1CN9lhP6ea4c0+QbCPAUIdgZWMYEVcvmGB+tgMbsADRUACbngFyVHjrF0U4pESmJtNMkWi29n8dn0qaLyBr0viuGtAH+SRx4F5dC2Y5vHj0aQdCLMgzoHzlmuL2VIxQkUnKZFf0GOouvETTJNdaixiaYwVekiB3hFLjcrS4hNMOJVxZuL4h2H9zGX7H6RgRfy6vw7R+nDf7noFtXYJ6LZwKQhokM9TeHVVOqvu++DcaoLrYLSjJVv+8Cs9kXPH20nn5CE4jkqJgqRXeCzx92lljsbp20jXv7B+Z/WA==",
+                        "value": "zkPUe2XahP7rR/2bgAb4ng=="
+                    },
+                    "accountName": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "authType": {
+                        "value": "Password"
+                    },
+                    "clientSideEncryption": {
+                        "value": "NONE"
+                    },
+                    "container": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "customKey": {
+                        "expression": false,
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "7ms38xAjMBtR92MpmbOiMg==",
+                        "sym_key": "YE24UVultGPZ3ocCPfJbNL8Ui24JmABnh//WQSRr27P+TZrrVssh2ygBctDFBxmaY9vxTRSIWnRDdTwnTk6j5LRS0Yvz6FVv8IwHGQ59Zifq56jQF7WtOd+TRImLnOs6qiRmULfRlb2Pa/buVy0HMHqTrl720o7n2h5L3wl33juYIZ6XW5+Lsnu16lrqQyOjo0eavQbw51XWEY0LLxNTvBi+xkj1QSHD4Csp2Ju7eodj7PAnt4qJo6Qtx7hDE7kn4tA5OeKIP8CQlHhjDPZtOG/HFP/wj4cyes0G11iw0x1kIcS/ZH26kLAk9Oph+K390WTinbZuGNBlkzaP3EGnyA==",
+                        "value": "CwuUKHfy6s6FSQ6OXBPkkw=="
+                    },
+                    "databaseName": {
+                        "expression": false,
+                        "value": "TEST"
+                    },
+                    "hostname": {
+                        "expression": false,
+                        "value": "aw38786.central-india.azure.snowflakecomputing.com"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "net.snowflake.client.jdbc.SnowflakeDriver"
+                    },
+                    "password": {
+                        "expression": false,
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "/xHl+MPU6Nz5Oru4BUOT5Q==",
+                        "sym_key": "EeArS8rYLNdGZRuahKVj+vPV1xRm1hkpOm61MTOkf7fRIf0bdjarAX12Bcr9k0QDUWddXgpb2q6fJgDhc/aBD3w3oKKVRPSBT0lQDcNQKdDz9PyfJUiL8qYeVkuLtppabN55bjxIx1sOtKZoaNHQm9AJQHQd3tKWZQnCL/VTKtqIdNIVEaRczgyOgmJ8rH1eCBt8aw+Q/R2HKfk/4nc0L76IUuQ4qandPyaElrabbBCct3GWm+5vFUo1WQKesMEAl9UeoVMBgKdIxZsJ9wcbK+HD+ctZhukSg/qg/5EdyWkVZfYi+j8GOesbbbtVYJySV/xFEMKXiXIiGjMUJJDVTg==",
+                        "value": "YkiaDD1IpOEDQmNmIbO6aQ=="
+                    },
+                    "path": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "portNumber": {
+                        "expression": false,
+                        "value": 443
+                    },
+                    "privateKey": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "privateKeyPassphrase": {
+                        "expression": false,
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "YyqyT5RwpTL7eVvQCntpAA==",
+                        "sym_key": "TAnWi6RiL+f13O+D6M6r7M7jfh6TB74nQLkE6gb7iVp7FbAoNVutW6A/iZkULDi2JcrK2SdOyEIECHYs3qJfDg7eOMb18/TSQ2jiTfLWHNJ8Di/fIlp50Kh6KxRyOWNpM1M/Lfc+EUVnISRNdRSr8Vjpd2cQWaY/t+E3ZwPdVQfZfd8WfXTOCWvltutEPmi1H6B1HA3f/Y+dBKQnzKptdbHQ0bE/03SMsf2uCoeEVONx/f11H5/IuXFvAqM28d2kRx6fMadYuci4DMLEmW1T+E03NYccirgpGvNdQqDHVrXkCkzDP2ELg6QAf5RwgqOFT5aFWKtRrqqJi1q4Aeuy0w==",
+                        "value": "U3me2UfX3jRqVxImbRd04Q=="
+                    },
+                    "sasTokenMethod": {
+                        "value": "User supplied"
+                    },
+                    "userToken": {
+                        "expression": false,
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "VJ6Se9TmVUY6pZb87ENTGQ==",
+                        "sym_key": "CvcQkmsya31HCKbmw3CdnhO4mEmiZRHcwwYAXG4puY+r260AU23vY7hPAIhKLiNSZDum2Ot7VfyBDER6wtu1Q9u7OERFGUJ8ewGoNx+5C+f5QGAGONniaQgu6MVnJIwWYEPo61iDXDONt2QdrBFVaZ20EtJSGZK88LJPhAjHJTKTlGPs2oASeHJW30DC2K36KnKEa7dLRGuZjapM1wCtOsk4pSXaWJYOEw3Zj7CNVqE/GJbtGUU18zll8x2qNsuAYN3YZg+AClSee+Uekb1Qk1+jvQhPuCMXe4l+4vQxcbAJCQSfze4cd6hqlBNHQXm9pxKzNDOoNIcG+VHTVlxKcg==",
+                        "value": "p+txax7m4aExpBVlup8Gkw=="
+                    },
+                    "username": {
+                        "expression": false,
+                        "value": "lavanyabaskaran"
+                    },
+                    "warehouse": {
+                        "expression": false,
+                        "value": "COMPUTE_WH"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}

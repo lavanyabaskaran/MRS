@@ -1,0 +1,54 @@
+{
+    "class_id": "com-snaplogic-snaps-microsoft-exchangeonline-account-exchangeonlineoauth2appaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "token"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "auth_endpoint": {
+                "value": "https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/authorize"
+            },
+            "autoRefreshToken": {
+                "value": true
+            },
+            "client_id": {
+                "value": "0f75d9e9-07f5-4ffb-a03f-03a206df9004"
+            },
+            "client_secret": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "LVTQp75LwaXyGhjiv7tB9g==",
+                "sym_key": "g3QnGyjVQwhLnm+AvLFSxafqOyiJS/NkMXKUUpYxydKUjJSwqhVsxkCHRmrRk+MuUN2Y0HMhQ4ANz0+n7gCeDfvbi7IAhJFNafPYixYRRvl5V7Jemwm8AlfADxnC6WGgPAFfvSWzR48uc1TdSyGURpw8q/rXnI7flKj8CvehtVp0hS5EONFXqIq13Qm5/pdLffFMqFtraTTvfaMIAL3S9YNApSYg0aGf73GqQWBq1TJuSzZm9vFltEZoZNuIdqnHKA2NFheHtJZPwt8dLg79ZcRe+WD/c3sWRVcDW1kyQqwE24VmUCMWbEhToX9/eusCcfQi5pHgIQ1QstA6e0Y95Q==",
+                "value": "PeIL37MAYuLp1I8a6Tjs8Km1+ayw7scpEvpqpKZ6UUo="
+            },
+            "grant_type": {
+                "value": "client_credentials"
+            },
+            "headerAuth": {
+                "value": true
+            },
+            "sendClientInBody": {
+                "value": false
+            },
+            "token_endpoint": {
+                "value": "https://login.microsoftonline.com/6853cea0-24f7-47d5-afdd-c87c30b5535b/oauth2/v2.0/token"
+            },
+            "token_endpoint_config": {
+                "value": []
+            },
+            "username": {
+                "value": null
+            }
+        },
+        "view_serial": 100
+    }
+}

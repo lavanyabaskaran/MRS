@@ -1,0 +1,51 @@
+{
+    "class_id": "com-snaplogic-snaps-email-smtpaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "SMTP"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "connectionTimeout": {
+                "value": 60000
+            },
+            "emailId": {
+                "value": "lavanya@sightspectrum"
+            },
+            "mailProperties": {
+                "value": []
+            },
+            "password": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "JEDCMJjhy8XR698Nb38zrA==",
+                "sym_key": "cHm4jj23Pb481wMNVqaOlGbIY5Er5GGENvKqRwHcxfb6YnP0s9d1MEopqAuRD2TsQOMt+XffAT6VV8ramfOE7Y44g1uiNgY5S0W/1heXnWF1Jf8T+Mx9Ed36D/Qx9PoPfs2Fk0rjrcGJf1ZhsYL1NKvH1qgW5W8geu1axBm8h2Tz1aRUG9j4eO0yuO+8jOZcx+er9ee6oSrV/21/aIp8efcGoQFDBoFrNCFXtbqFUXjvyYSG5O6RDGfMxgvfgZmPNFl5/vJ1vH2oAm3G5keIWRPK9ZlQuaJhADAE6VbRR4MWCGIMPdk6mbiknTFEbpL3g4YbDcaW0JUDF41FhunsIA==",
+                "value": "8X3k5rennJxnli57krjD4w=="
+            },
+            "port": {
+                "value": "465"
+            },
+            "readTimeout": {
+                "value": 60000
+            },
+            "secureConnection": {
+                "value": "SSL"
+            },
+            "serverDomain": {
+                "value": "MailChimp"
+            },
+            "writeTimeout": {
+                "value": 60000
+            }
+        },
+        "view_serial": 100
+    }
+}

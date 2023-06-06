@@ -1,0 +1,36 @@
+{
+    "class_id": "com-snaplogic-snaps-salesforce-salesforceaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "ACCOUNT"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "loginUrl": {
+                "value": "https://login.salesforce.com"
+            },
+            "password": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "zxRhEKAZ1WdOhk3qapxV/g==",
+                "sym_key": "mLrCem1GjU8pQp6D2xlqHe5IsYrEg0jpngiNQAQurkKWFypuIFkS3V28lkXe0YW09VBGPLLfolSbUkINdZXIIfkWXH/+E8GsyGvFQSfNL4OCwSm0GQCB4MjuHcP7iNiZ67L0Y9wcKheLjiUHRQcv/YTRP0NiXeQXRBRlS8HTahtjlClwYQZcsFlZDkjXQqG5bekxWBa8EFf/uqxGj58lICrgQF0Ui+T6jZrExmtQWnhWrodYaTGvkIKOSEWoBEXYq7PmONEsqpEjBTYQcPngFqyKWG06snkehy2JeFdmcBZ5tevJXVdG2rWy6YJ/LLGlWoYaxTROySYQOTrmluR/DA==",
+                "value": "9bs9XWHgSDBJb/0QI06ftDlA1f4T4Ix95vLkKeKQkN4="
+            },
+            "sandbox": {
+                "value": false
+            },
+            "username": {
+                "value": "lavanya@sightspectrum.in"
+            }
+        },
+        "view_serial": 100
+    }
+}

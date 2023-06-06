@@ -1,0 +1,100 @@
+{
+    "class_id": "com-snaplogic-snaps-binary-googlestorageaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "STORAGE"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "access_token": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "edb0/c6rx4KZT8ZzBtrWSQ==",
+                "sym_key": "Q8ejrzBwjg4uirapjDGdJxDUL1ETBUy7HFiwyi8zHLz2My1pHxzx2NfI6P/43lRdFawRefVSiuElkssed5Pnv42ToNci3OezH7+dlWkf3chiC9v4EJ7G6y3e3jaQ5g7FOMPn3HCi2uicsSqZLMqFizx61GIGxUoqWxE/KwJnbReS3zqKLtbMaknZtkZfcyGjESjynyL3XcF+zyHz2JjPDPty+f/hwY86IXCQuQhPOWionYEKKLe7HV97rg+CikE0tR5aFtwP3jTPeH6OG54A/NMO8GHDipd9m8m7mh5gV55OppD9oNHn4smdsmC1CM4gTi88HVVZMVPwtVR/DyTQIw==",
+                "value": "a0GiqcF7ygZ6pUyUP+/dSxStjgBZ/ogAU8VaVpVPrRq+EDiSsPt+gx2ZdEnxuj2lQSmEXLjJNL91T8u/JL2IeCrtCwtetQ36BlbtnGnxPIaDdU4YGpsL3Pc1XsAZL36Be+TmlHwtU2LYK2W6CFL1Yb3/pZZMYxtWNvD+sn9TP/x9yl01UiA45ZVMpuHbrKcZsZZ9isHqx23IC4kxLVjFq6BMp97oER0bCn01Q5Dp8MkFnhcL6Z14M9Y7rtZSxX8g/QwMW7cx//5bXjONzG0f4eyz4CcSyA3vhlWZ4rGfnV0="
+            },
+            "access_token_expiration": {
+                "fp": null,
+                "key": null,
+                "sym_iv": null,
+                "sym_key": null,
+                "value": "1685347604"
+            },
+            "auth_endpoint": {
+                "value": "https://accounts.google.com/o/oauth2/auth"
+            },
+            "auth_endpoint_config": {
+                "value": {
+                    "access_type": {
+                        "value": "offline"
+                    },
+                    "approval_prompt": {
+                        "value": "auto"
+                    },
+                    "scope": {
+                        "value": "https://www.googleapis.com/auth/devstorage.full_control"
+                    }
+                }
+            },
+            "autoRefreshToken": {
+                "value": false
+            },
+            "client_id": {
+                "value": "366818744570-lvvo1k7nhca1me21icqbh4gucnl0a2os.apps.googleusercontent.com"
+            },
+            "client_secret": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "FbyvT5P3LPQXkkuoLB0M8w==",
+                "sym_key": "gkcZ6AQBXaMaytYbXb9lDDxluJr9lp8beJrgEiVcjvtDEl/yTL7UChjUe1XuY54K7wuqf6vEPNiXlo2AHjGnrqzcRGtBWId03TiF00VVXu4UZo3lsTYf9f/ted18E1dg4YnpehvVcb4nS5HnFXRBPTSG3CpKR0vAy+lDdIvLnn7Ud8lDHZzLQbWB9pUWZbOhpsmfPiVcL3flM8WKRoq/RfjO/WDcsoAS/LqyfUclGC8q6V4R+Vz23Lj3LmdD64bsCEmSCgA0eUYayBwBc2WbgLpyOCgdEjwYrrXGzuS9+olfZJL6XRq0w8NR59id2bCFTuwpd09js/rYIcOLqjgvEg==",
+                "value": "1Adw9AwESC5muWGRnM3m42+FuAIMi/7xk0DqccSsWHc="
+            },
+            "grant_type": {
+                "value": "authorization_code"
+            },
+            "oauth2JsonRestResponse": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "7Yjn1kRiJEz1nVTUJx3Eww==",
+                "sym_key": "RtbpKznZ6PjsziVOjJLgT+GBtw7Y0pYaVwJuo5pJcVdZNnO80KTpxXUzrxGfAI8HsS91wFhfzyF7vmtilKFCb+Gprpny/VZ9rW6KeJFGqKVTYdUp6hglk9s5juC3dM/iVc8Me2GMXUMOKhUrv6ZLdzgDibb2bCcO6DzKCY1sNNtpPocdOoUkXcg6Zn2av/N/MOpOKa35yvjfGEUjj7hDVTEuyOoAKQtKdvRSEyfzCvvltNvi8l4sLEscZrHxlLgNGkLrt+zqq5EcB9GLGhMV1oVQe7pesLjZfPxkJ1XaVknVVvRuP6lMCEx1bVNLRm7LrIxhrYYV5qvAB+osOZPm1A==",
+                "value": "ahjsVd13xJG0LAb2iK8irA=="
+            },
+            "oauth_token": {
+                "fp": null,
+                "key": null,
+                "sym_iv": null,
+                "sym_key": null,
+                "value": null
+            },
+            "oauth_token_secret": {
+                "fp": null,
+                "key": null,
+                "sym_iv": null,
+                "sym_key": null,
+                "value": null
+            },
+            "refresh_token": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "3w/pWQgCvpmj5FNZ0YqBQA==",
+                "sym_key": "ijQE82kyxZPmejvt1AUNeIvTQUC4gunqcl4In7JrITVlkCtlj0yyKEU7AfrPV0oKigLZEWtY6TQEUism5um+2VvPd52P0Qiwcf8/qwdeJBr4HB4UcMzk5A8gElXG+5SawcrmMtGkWHFaLwhgT0Cb/Lo8oAUKv4Cv+OZBU2EMhSFqKqP2FlZCp8+d/i2hwhfPgXgyaDnj0ebnQuXLkyxsS0K0Usop7pDOfeWxFjj3zVkfOrzC8B8SfKAlgmcmQz5P8rJdEvUlCces5iykOHINSMsprqunOnkFyAt06WMwvWufNpvmyxJPZAYgcLWfahmo+/RDXWq9JlA+/7PQeaPl+A==",
+                "value": "0IhFWddBSMMS6KNrY8H1ZS40MyFvLQ/vdB2YVaEpE0OJjpCSftYnJAEJ7oXumtyiAxETILhUtKLa+EfVcKcdi9tJ+LF3jW9llU3LV+Zcu0cZ+XDUSqyg5vbS5JCrwRjuFbWXTnSCDytPqNWojSpDWg=="
+            },
+            "sendClientInBody": {
+                "value": false
+            },
+            "token_endpoint": {
+                "value": "https://oauth2.googleapis.com/token"
+            }
+        },
+        "view_serial": 100
+    }
+}

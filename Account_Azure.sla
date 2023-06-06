@@ -1,0 +1,54 @@
+{
+    "class_id": "com-snaplogic-snaps-microsoft-exchangeonline-account-exchangeonlineoauth2appaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Account_Azure"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "auth_endpoint": {
+                "value": "https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/authorize"
+            },
+            "autoRefreshToken": {
+                "value": true
+            },
+            "client_id": {
+                "value": "0f75d9e9-07f5-4ffb-a03f-03a206df9004"
+            },
+            "client_secret": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "LgRHwiXHMBzqxH3f4seVFA==",
+                "sym_key": "QDTGI2B4mEUk99fxudh3P9XNLuzGlT43ahrmQVirjxkuMTtLf1yHmUz7yQKPeh0aFi95dqFCcPbFw0NwgFrGNoNittN6/x7F+B4+GO5eRDX3zQjii2KnXFlJYEnVjEmMlKgAoQpci3zOYGtcnOxWgoiNXkorYRS7TtM0YYFkslh+hWCc86TCmZ183RrVqCf7RsFdo8kx/9wyUiXd8pv7usix5nimKzOp229de3WIcMbNHCxFevTtQ69oB8vY+L8XQlVVCms07HHBIqRZfpZb3iK99DnnkZnh4TLIznGuYAxcO8nAhIOpuMidT5qYpmP8xoQUftraUXi5fUKquGEZhg==",
+                "value": "F/4iI2s9mjnmTrPa4gl51I+vQP+cTVpLxjZKoaZfBgwdHFgRu7MUhz63hFh8Xo3u"
+            },
+            "grant_type": {
+                "value": "client_credentials"
+            },
+            "headerAuth": {
+                "value": true
+            },
+            "sendClientInBody": {
+                "value": false
+            },
+            "token_endpoint": {
+                "value": "https://login.microsoftonline.com/6853cea0-24f7-47d5-afdd-c87c30b5535b/oauth2/v2.0/token"
+            },
+            "token_endpoint_config": {
+                "value": []
+            },
+            "username": {
+                "value": null
+            }
+        },
+        "view_serial": 100
+    }
+}

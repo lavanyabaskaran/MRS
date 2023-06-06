@@ -1,0 +1,52 @@
+{
+    "class_id": "com-snaplogic-snaps-facebook-facebookoauth2account",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "facebook-conn"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "auth_endpoint": {
+                "value": "https://graph.facebook.com/oauth/authorize"
+            },
+            "auth_endpoint_config": {
+                "value": {
+                    "scope": {
+                        "value": "email,public_profile,read_insights,manage_pages"
+                    }
+                }
+            },
+            "autoRefreshToken": {
+                "value": false
+            },
+            "client_id": {
+                "value": "*****"
+            },
+            "client_secret": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "8U9D7jXD0V2g7eQ5ohoDKQ==",
+                "sym_key": "XBR/F/uk64oZzpr5SvSPOshgII7x9nEkkilh6yko2TeRCrDWhjS+Ri5/m4w89HCWvRXBGQ5scmT5U/RyFfQExyWhMUebKITSSjtQ0DtCbdJeqGFrPRn7+598NKkvIT/iI47L0XRYEXJMs/cm0vqDxRbG++FIGp4cmpo6SubKjq0V/OysmH2rVomJFLRSl92Zp36FhJnSKUVAuEdG5v2KNt+Zs1fotDnLePtvNYB5zKxFvK74KusRBN34yOU7SoC1lGFBDDn886h+UDAeDG1K5UTBMKw/j+2PlCTzCDGRJC+PUDWAWovcpiJ9Vr+3v7MPmSTwEFl99A/02xA/wE/KUg==",
+                "value": "tVZijUIZaOMzS8Kee2aNLg=="
+            },
+            "grant_type": {
+                "value": "authorization_code"
+            },
+            "sendClientInBody": {
+                "value": false
+            },
+            "token_endpoint": {
+                "value": "https://graph.facebook.com/oauth/access_token"
+            }
+        },
+        "view_serial": 100
+    }
+}

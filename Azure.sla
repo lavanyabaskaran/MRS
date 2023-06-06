@@ -1,0 +1,54 @@
+{
+    "class_id": "com-snaplogic-snaps-microsoft-exchangeonline-account-exchangeonlineoauth2appaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Azure"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "auth_endpoint": {
+                "value": "https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/authorize"
+            },
+            "autoRefreshToken": {
+                "value": true
+            },
+            "client_id": {
+                "value": "f4d72c2a-763c-4272-8855-3a87e7a93047"
+            },
+            "client_secret": {
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "tuGGl4ZW92KvGO7pdaFOjA==",
+                "sym_key": "Yo5ZhQIvHc23c0q7bFJfaiXQOLjU2iwwBMtvfTrx5vspsDJX1tsTeg6hcGaeQKc07uO3DxfRhZjX5Mwq+3brTszdAK4iKdZjySgBH4FnNyjkWGQ0y4s9wdQAlf4O5pPr0MpHD0xlpxLSQXPnkLdc0sljko6wsvT259U8AeQgTiaoWxCHY85/essGi3LQSFouhUqY4FGR9n13LBVpUg2FlJnmYnOKfJ5Sl9IeiyeCMUjYM5KJgA2I6n5IZd98MIRKwz6Dzhzy2c85nWSle4adXkw1IGNuYYh12/Q5CfBAo/o38DpTlZ5Tfer0QocDHDAtqM7t0/RS4Q2Ckqr7wQLQAQ==",
+                "value": "30ro+FWbkFmlVlzLk1W2TOm11/mRHEqJLCX/U4s9vBzkU3ydbkLhR/1hNvp6tljM"
+            },
+            "grant_type": {
+                "value": "client_credentials"
+            },
+            "headerAuth": {
+                "value": true
+            },
+            "sendClientInBody": {
+                "value": false
+            },
+            "token_endpoint": {
+                "value": "https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token"
+            },
+            "token_endpoint_config": {
+                "value": []
+            },
+            "username": {
+                "value": null
+            }
+        },
+        "view_serial": 100
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "class_id": "com-snaplogic-snaps-s3-s3account",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "snaplogictrial"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "S3_connection"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "accessKeyId": {
+                "expression": false,
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "GTicHYWrtAa648J9n8lwlA==",
+                "sym_key": "v3vnLLRsxBXVKutmFf0nLhU/gTN7YpRsmn9Dhwfg5SNivwO67wPWPwtX2y/JaAs8fxjjvtCO5q3bPM6ZpXs/EIPg0ZkhrhDcOROWFAc1/6IxqXeXYLwZcHOw8H7NWhE6qmhLa5FPUccs9BZJxkonKoSRP3/ZLdfnLyVbfVnxkux7/dsNEZOYDcw+iaAJjOfaoMsZbtdfbV2acc5s28RSJUw0cCg2QbMQa9sF8fV5zTc6qS35TNfedNhi6Bpv5CMYvJMDY+kNrWULb6qDZD7qgtS6xRd/wWfzqQzN2QZ9rJTJmb4vtW+gaB6FowJ4v0IzfMFS35h6EkJIKEKf2C6Lmg==",
+                "value": "gSK9bxm9WBxYnL2d6PDPr/IkhgBulQTtyzaTemxFhzc="
+            },
+            "crossAccountIAM": {
+                "value": {
+                    "arn": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "externalID": {
+                        "expression": false,
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "IQ6K+3aK3RePhC5Ff5pB3Q==",
+                        "sym_key": "Y8MSSxXP2raKUNWcbUBz8sLbwANH4qT4n4wy8n1I/o+8b08uu5E/QcU7AyrJ32su9BK1XhexFaGYHLtOQA7JRh5PY+pzpNdL09f+Hh+HdLNrfDGA+XpIRjedvoBnN0RMd+vIXv1j2lsz/hDCAropwDGPrHzEznYjAJSAeVMoYiEiBYIWXq+G8g1WfHI2Dr4U1nlX75++df/ruKOZ4FDVD6YDFMD0/re7DUbcVzEdRENOY+bp4ROrC2aVnNQU+yRmJhLg4z9AoaVFmHphnlXMf3azX74anzKrdEC+5GGTppEKaQnKC58bbLGvD/Wc3RkDaE7pbPU/ddFU9kno+5Fpng==",
+                        "value": "O+w/ZocF/Vm99eGzyLCDNg=="
+                    }
+                }
+            },
+            "encryption": {
+                "value": {
+                    "encryptionType": {
+                        "expression": false,
+                        "value": "None"
+                    },
+                    "kmsKey": {
+                        "expression": false,
+                        "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                        "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                        "sym_iv": "lOujb7B2NMDCuXZj84rFbA==",
+                        "sym_key": "bgGGWjQQxw8+y0BHTAP+iBQCe6Pnc72Ws6zS4CeoKEu1dAAaNMfZ7LLKE1dGDQfsAiSJN7Sw0ZwytDUU903JmH9C3i3oUcptY8a/TQMY2mcdmPmXAIfCtEmljr+Z7lDKydQtKUdbFoZsTuKrWH8hEz5pII7uCwa/BQtDz5cSjv4t46fYxYWzqTtWVpi2h5nFpVqYTpQ9/v/mHX9FNEtbOdfSuXp864G+nJ7dA8OatKP6ujhwg/w1H0m3YO82fA73YyZc51Acp7DMYGySW6z/t0pXmy5SAhGMGImXe/VrIL0+jDxNPeKV748N4CNLfzyv/t8X0XkyNu+YFFf1S7d0mw==",
+                        "value": "YNfsP+GAgSzgK9eX3wH53g=="
+                    },
+                    "kmsRegion": {
+                        "expression": false,
+                        "value": null
+                    }
+                }
+            },
+            "iamRole": {
+                "value": false
+            },
+            "secretKey": {
+                "expression": false,
+                "fp": "6f3e6e685aeb1163e0762544d5ec0bbcd18320eb0c66a9f7a98ab809efec4d00",
+                "key": "account-cloud-managed-5a20a5c1f952e907308b2e59-2017-12-01T00:43:55-552216+00:00",
+                "sym_iv": "bSPHvA7AMquHsdyqML7Jxg==",
+                "sym_key": "BO5rNmdWSztz49hRKZif9cWDwnvpokquA4981UrTaD1r0PvyH/aG/J1FY27LQ1YE12VuOc8pz3BqoZ2uSOT0BGm65T/1dJqb7AnfhFR1nj9QfGFsnyHLUjtucixTKj2lWzniVhNxuZ2tbgzIJ2+IK0tN6bL/woWLJB9AQZ1XUAWceye9MlB5VZBbST6Zt3todo+wF2RNBG/NJGSBD2qadRYhMKSGpoRXRXeDOpsx+2fgkSm2gKbmV1LEBf4vrTVtwVOEYdnPChdAQmK95RhV2djG3t038UZ5a5GlQz5zC1twXyBCeFsJM2wvQM3N3uxEqVKXDJmm6S2zqDkpjyB5rQ==",
+                "value": "VoT0EPApiXkT93CE+3NjNGTkduaCzGs5u+T5jnQ/rtf5mJaWVNGFZcfpUizS5yCh"
+            },
+            "securityToken": {
+                "expression": false,
+                "value": null
+            }
+        },
+        "view_serial": 100
+    }
+}
